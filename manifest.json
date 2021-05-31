@@ -1,0 +1,21 @@
+{
+  "name": "WhatsApp Spammer",
+  "version": "1.0",
+  "description": "Leni Deni!",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["assets/js/background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "WhatsApp Spammer",
+    "default_popup": "popup.html"
+  },
+  "icons":{
+    "128":"/assets/icons/icon.png"
+  }
+}
